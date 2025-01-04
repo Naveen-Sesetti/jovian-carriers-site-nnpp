@@ -1,0 +1,160 @@
+*{
+
+}
+html{
+    /*color: rgb(71,120,0)/* rgb(red,blue,green)*/
+}
+
+body{
+    margin: 0;
+    padding:0;
+    font-family:'Roboto', sans-serif;
+    /*line-height: 2;
+    font-size: 24px;
+    font-weight:500;  */
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Inter', sans-serif;
+    
+}
+#navbar{
+    padding:5px;
+    margin-bottom:0;
+    margin-left: 0;
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover a:focus{
+    color: #1d4ed8;
+}
+#banner{
+    object-fit: cover;
+}
+#about{
+    display: flex;
+    max-width: 800px;
+    margin:0 auto;
+    padding-right: 8px;
+}
+#description{
+    width: 50%;
+    padding: 8px;
+    font-family:sans-serif;
+}
+#team_image{
+    border-radius: 5px;
+    height:50%;
+    max-width: 800px;
+
+    
+    
+}
+#team{
+    width:50%;
+}
+#logo{
+    height:40px;
+}
+h1{
+    text-align: left;
+    color: brown;
+    text-transform: uppercase;
+
+}
+span{
+    text-align:left;
+    color:blueviolet;
+}
+#banner{
+    width:100%;
+}
+
+#jobs-table{
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+   
+
+}
+.table-header-row th{
+    border: 1px solid gray;
+    background-color: aliceblue;
+    text-align: left;
+
+}
+.table-data-row td{
+    border: 1px solid gray;
+    padding: 8px;
+}
+#jobs-table tr:nth-child(odd){
+    background-color: ghostwhite;
+}
+
+h2{
+    text-align: center;
+}
+#jobs{
+    max-width: 800px;
+    margin: 0 auto;
+    padding:0 8px;
+}
+h3{
+    margin-bottom:4px;
+}
+.apply{
+    float: right;
+}
+#application{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+#application form label{
+    font-weight: 600;
+    margin-top: 8px;
+}
+#application form input,select,textarea{
+    padding: 8px;
+    font-size:1.25 rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.form-group{
+    margin-top: 16px;
+}
+.form-group textarea{
+    width:80%;
+}
+.form-group input[type="submit"]{
+    background-color: #5e7ac8;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#footer{
+    background-color: ghostwhite;
+    padding:8px;
+    margin-top: 32px;;
+    text-align: center;
+    
+
+}
+
+#footer_links{
+    list-style: none;
+
+   
+}
+#footer_links li{
+    display: inline;
+    margin: 0 16px;
+}
+.copyright{
+  color: gray;  
+}
+
